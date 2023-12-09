@@ -3,3 +3,5 @@ media
 .idea
 #Dockerfile
 #.dockerignore
+docker-compose.yml
+railway.json
