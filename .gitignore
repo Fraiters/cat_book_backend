@@ -1,6 +1,5 @@
 db.sqlite3
 media
 .idea
-Dockerfile
-.dockerignore
-cats/migrations
+#Dockerfile
+#.dockerignore
