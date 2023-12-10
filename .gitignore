@@ -1,7 +1,4 @@
 db.sqlite3
 media
 .idea
-#Dockerfile
-#.dockerignore
-docker-compose.yml
 railway.json

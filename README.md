@@ -173,18 +173,18 @@
     }
 ```
 
-
+## В папке insomnia лежит файл .json с примерами локальных запросов (его можно импортировать в insomnia)
 p.s. Для действий доступных авторизованному пользователю 
 необходимо всегда в headers указывать `Authorization` `Token <значение токена>`
 
-[//]: # (# ЗАПУСК:)
+# ЗАПУСК:
 
-[//]: # (- ## Локальный запуск: http://127.0.0.1:8000/cats/)
+- ## Локальный запуск: http://127.0.0.1:8000/api/cats/
 
-[//]: # (- ## Запуск на сервере: https://catmanager-production.up.railway.app/cats/)
+- ## Запуск на сервере: https://catbookbackend-production.up.railway.app/api/cats/
 
-[//]: # (- ## Запуск через докер: &#40;поддерживает только локальный url&#41;)
+- ## Запуск через докер: (для локального запуска необходимо изменить `command: "gunicorn cat_manager.wsgi:application --bind 0.0.0.0:8000"`)
 
-[//]: # (  - ## 1&#41; Сборка - `docker-compose build`)
+  - ## 1) Сборка - `docker-compose build`
 
-[//]: # (  - ## 2&#41; Запуск - `docker-compose up`)
+  - ## 2) Запуск - `docker-compose up`
