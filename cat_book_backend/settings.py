@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-c*vm$+b33_3^q^ph+r7gd4dsxg-isl815)mu5h%5u=8pnsp25&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['catbook-production.up.railway.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['catbookbackend-production.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -127,7 +127,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
