@@ -14,3 +14,5 @@ RUN python manage.py collectstatic --noinput
 RUN python manage.py migrate
 
 EXPOSE 8000
+
+CMD ["gunicorn", "cat_book_backend.wsgi"]
