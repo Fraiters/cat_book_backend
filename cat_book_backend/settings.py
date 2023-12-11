@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-c*vm$+b33_3^q^ph+r7gd4dsxg-isl815)mu5h%5u=8pnsp25&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['catbookbackend-production.up.railway.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['catbookbackend-production.up.railway.app',
+                 '127.0.0.1', 'localhost',
+                 'cat-book-frontend-production.up.railway.app'
+                 ]
 
 
 # Application definition
